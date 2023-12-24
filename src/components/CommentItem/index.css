@@ -77,6 +77,8 @@ h3 {
 .like {
   height: 3vh;
   width: 1vw;
+  margin-right: 0.3rem;
+  margin-top: -1rem;
 }
 .like-name {
   margin-top: 0rem;

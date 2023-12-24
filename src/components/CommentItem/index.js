@@ -42,13 +42,12 @@ const CommentItem = props => {
         </div>
         <div className="icon-container">
           <div className="like-container">
-            <button type="button" className={`like-button ${color}`}>
-              <img
-                src={imageUrl}
-                alt="like"
-                className="like"
-                onClick={clickedLike}
-              />
+            <img src={imageUrl} alt="like" className="like" />
+            <button
+              type="button"
+              className={`like-button ${color}`}
+              onClick={clickedLike}
+            >
               Like
             </button>
           </div>
